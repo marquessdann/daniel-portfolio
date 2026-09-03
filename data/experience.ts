@@ -6,8 +6,8 @@ export type JourneyStep = {
 
 export const journey: JourneyStep[] = [
   {
-    title: "Análise e Desenvolvimento de Sistemas",
-    detail: "Systems Analysis and Development",
+    title: "Systems Analysis & Development",
+    detail: "PUC-PR · expected 2027",
     status: "In progress",
   },
   {
