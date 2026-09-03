@@ -1,9 +1,9 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, type ReactElement } from "react";
 import { techCloudIcons } from "@/data/skills";
 
-const customIcons: Record<string, JSX.Element> = {
+const customIcons: Record<string, ReactElement> = {
   java: (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
       <path d="M4 8h13v5a5 5 0 01-5 5H9a5 5 0 01-5-5V8z" />
