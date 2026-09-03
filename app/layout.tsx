@@ -27,7 +27,7 @@ const mono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://danielmarques.dev"),
-  title: <Daniel Marques /> — Backend & AI Dev,
+  title: "<Daniel Marques /> — Backend & AI Dev",
   description:
     "Junior backend developer building with Python, Java and APIs, moving into AI engineering — LLM integration, RAG pipelines, agents and MCP.",
   keywords: [
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     "MCP",
   ],
   openGraph: {
-    title: <Daniel Marques /> — Backend & AI Dev,
+    title: "<Daniel Marques /> — Backend & AI Dev",
     description:
       "Backend systems, APIs and AI-powered applications. Python · Java · APIs · AI Automation.",
     url: "https://danielmarques.dev",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: <Daniel Marques /> — Backend & AI Dev,
+    title: "<Daniel Marques /> — Backend & AI Dev",
     description:
       "Backend systems, APIs and AI-powered applications. Python · Java · APIs · AI Automation.",
   },
