@@ -100,4 +100,30 @@ export const projects: Project[] = [
     github: undefined,
     status: "planned",
   },
+  {
+    index: "04",
+    name: "GymFlow AI",
+    category: "Python + FastAPI Backend / AI Assistant",
+    description:
+      "Gyms that run classes on a fixed weekly schedule — weight training, functional, spinning, yoga — usually manage bookings over WhatsApp, paper or spreadsheets, which causes overbooking and duplicate reservations and leaves staff with no real visibility into occupancy (which slot is actually empty?). GymFlow AI is a FastAPI + PostgreSQL backend that fixes both: bookings are capacity-aware and reject duplicates or overbooking before they happen, and a chat assistant answers scheduling questions in real time by calling a fixed, whitelisted set of functions that query the real database — never free-form SQL or invented data — so every answer stays grounded in what's actually booked.",
+    stack: [
+      { name: "Python", highlights: ["FASTAPI", "BOOKING SERVICE"] },
+      { name: "FastAPI", highlights: ["USER", "FASTAPI"] },
+      { name: "PostgreSQL", highlights: ["DATABASE"] },
+      { name: "SQLAlchemy", highlights: ["BOOKING SERVICE", "DATABASE"] },
+      { name: "JWT Auth", highlights: ["USER", "FASTAPI"] },
+      { name: "Function Calling", highlights: ["AI ASSISTANT", "TOOL CALLING"] },
+      { name: "Pytest", highlights: [] },
+    ],
+    architecture: [
+      { id: "USER", label: "USER" },
+      { id: "FASTAPI", label: "FASTAPI" },
+      { id: "BOOKING SERVICE", label: "BOOKING SERVICE" },
+      { id: "AI ASSISTANT", label: "AI ASSISTANT" },
+      { id: "TOOL CALLING", label: "TOOL CALLING" },
+      { id: "DATABASE", label: "DATABASE" },
+    ],
+    github: "https://github.com/marquessdann/academy-ia",
+    status: "in-progress",
+  },
 ];
